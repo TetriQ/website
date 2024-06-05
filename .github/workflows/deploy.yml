@@ -25,6 +25,6 @@ jobs:
           HOST: ${{secrets.DEPLOY_SSH_HOST}}
           USER: ${{secrets.DEPLOY_SSH_USER}}
           KEY: ${{secrets.DEPLOY_SSH_KEY}}
-          SOURCE: doc/book/
+          SOURCE: www/
           TARGET: tetriq/
           ARGS: -avz --exclude manual/ --delete
