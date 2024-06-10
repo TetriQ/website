@@ -27,4 +27,4 @@ jobs:
           KEY: ${{secrets.DEPLOY_SSH_KEY}}
           SOURCE: www/
           TARGET: tetriq/
-          ARGS: -avz --exclude manual/ --delete
+          ARGS: -avz --exclude manual/ --exclude doxygen/ --delete
