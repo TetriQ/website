@@ -1,0 +1,20 @@
+/*
+ * SPDX-FileCopyrightText: 2024 The TetriQ authors
+ *
+ * SPDX-License-Identifier: AGPL-3.0-or-later
+ */
+
+html {
+    background-color: #000000;
+    color: white;
+    min-height: 100vh;
+
+    background-image: url("game-background.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+body {
+    max-width: 512px;
+    margin: 0 auto;
+}
