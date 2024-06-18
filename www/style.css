@@ -8,6 +8,7 @@ html {
     background-color: #000000;
     color: white;
     min-height: 100vh;
+    font-family: system-ui, sans-serif;
 
     background-image: url("game-background.png");
     background-repeat: repeat-x;
